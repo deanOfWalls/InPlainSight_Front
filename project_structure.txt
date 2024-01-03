@@ -1,0 +1,53 @@
+.
+├── .attach_pid123424
+├── .attach_pid9531
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+├── project_structure.txt
+├── README.md
+├── src
+│   ├── main
+│   │   └── resources
+│   │       ├── static
+│   │       │   ├── images
+│   │       │   │   ├── decoy1.png
+│   │       │   │   ├── decoy2.png
+│   │       │   │   ├── decoy3.png
+│   │       │   │   └── decoy4.png
+│   │       │   ├── script.js
+│   │       │   └── style.css
+│   │       └── templates
+│   │           └── gallery.html
+│   └── test
+│       └── java
+│           └── com
+│               └── deanofwalls
+│                   └── GALLERY_PROTO
+└── target
+    ├── classes
+    │   ├── application.properties
+    │   ├── com
+    │   │   └── deanofwalls
+    │   │       ├── CRUD_SQL_DEMO
+    │   │       │   └── config
+    │   │       │       └── LoggingConfig.class
+    │   │       └── GALLERY_PROTO
+    │   │           ├── controller
+    │   │           │   ├── GalleryController.class
+    │   │           │   └── ImageController.class
+    │   │           └── MainApplication.class
+    │   ├── static
+    │   │   ├── images
+    │   │   │   ├── decoy1.png
+    │   │   │   ├── decoy2.png
+    │   │   │   ├── decoy3.png
+    │   │   │   └── decoy4.png
+    │   │   ├── script.js
+    │   │   └── style.css
+    │   └── templates
+    │       └── gallery.html
+    └── generated-sources
+        └── annotations
+
+25 directories, 26 files
