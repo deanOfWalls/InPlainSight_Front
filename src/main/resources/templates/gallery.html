@@ -12,20 +12,16 @@
     <input type="file" id="fileInput" multiple>
 </div>
 
-<!-- The image container -->
-<div id="imageGallery" class="row"></div>
-
 <div id="overlay" style="background-color: rgba(0, 0, 0, 0.7); display: none;">
     <h3 style="color: white; text-align: center;">Select a decoy image</h3>
     <div id="decoyImages" class="row" style="display: none;">
-        <!-- Display local images from resources/static/images -->
-        <img src="/images/decoy1.png" alt="Decoy 1">
-        <img src="/images/decoy2.png" alt="Decoy 2">
-        <img src="/images/decoy3.png" alt="Decoy 3">
-        <img src="/images/decoy4.png" alt="Decoy 4">
+        <!-- Display local images from the back-end -->
+        <img src="http://localhost:8000/static/decoy1.png" alt="Decoy 1">
+        <img src="/static/decoy2.png" alt="Decoy 2">
+        <img src="/static/decoy3.png" alt="Decoy 3">
+        <img src="/static/decoy4.png" alt="Decoy 4">
     </div>
 </div>
-
 
 <script src="/static/script.js"></script>
 

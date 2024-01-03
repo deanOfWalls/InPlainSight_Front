@@ -10,11 +10,10 @@
 │   ├── main
 │   │   └── resources
 │   │       ├── static
-│   │       │   ├── images
-│   │       │   │   ├── decoy1.png
-│   │       │   │   ├── decoy2.png
-│   │       │   │   ├── decoy3.png
-│   │       │   │   └── decoy4.png
+│   │       │   ├── decoy1.png
+│   │       │   ├── decoy2.png
+│   │       │   ├── decoy3.png
+│   │       │   ├── decoy4.png
 │   │       │   ├── script.js
 │   │       │   └── style.css
 │   │       └── templates
@@ -50,4 +49,4 @@
     └── generated-sources
         └── annotations
 
-25 directories, 26 files
+24 directories, 26 files
